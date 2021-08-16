@@ -25,19 +25,4 @@ export const CardContainer = styled.div`
       font-weight: bold;
       margin-bottom: 0.5rem;
     }
-
-  & button {
-    display: block;
-    padding: 0.5rem 1.5rem;
-    background: #4f005f;
-    color: white;
-    font: inherit;
-    font-weight: bold;
-    border: none;
-    border-radius: 0.5rem;
-    
-    &:hover{
-      background: blueviolet;
-    }
-  }
 `;
