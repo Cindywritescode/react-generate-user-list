@@ -5,8 +5,13 @@ export const CardContainer = styled.div`
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   border-radius: 0.5rem;
   padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
 
   & input {
+    font: inherit;
+    display: flex;
     margin: 0.5rem auto;
     padding: 1rem;
     width: 90%;
@@ -21,7 +26,7 @@ export const CardContainer = styled.div`
   }
   
     & label {
-      display: block;
+      display: flex;
       font-weight: bold;
       margin-bottom: 0.5rem;
     }

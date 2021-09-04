@@ -19,12 +19,15 @@ const PrimaryButton = styled.div`
 
 export const Button = ({
   type,
-  children
+  children,
+  onClick
 }) => (
   <PrimaryButton>
     <button
       type={type || 'button'}
-    >{children}
+      onClick={onClick}
+    >
+      {children}
     </button>
   </PrimaryButton>
 );
