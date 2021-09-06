@@ -23,7 +23,7 @@ export const AddUser = ({onAddUser}) => {
             console.log('cannot have negative number');
             return;
         }
-        onAddUser(enteredUserName, enteredAge, enteredCity);
+        onAddUser(enteredUserName, enteredAge, enteredCity, enteredHobby);
         setEnterUserName('');
         setEnteredAge('');
         setEnteredCity('');

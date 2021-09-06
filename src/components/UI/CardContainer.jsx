@@ -24,10 +24,20 @@ export const CardContainer = styled.div`
       border-color: #4f005f;
     }
   }
-  
-    & label {
-      display: flex;
-      font-weight: bold;
-      margin-bottom: 0.5rem;
-    }
+
+  & label {
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  & p {
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    list-style-type: none;
+    background: #F0AD46;
+    color: white;
+    margin-bottom: 0
+  }
 `;

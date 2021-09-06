@@ -4,7 +4,7 @@ const PrimaryButton = styled.div`
   & button {
     display: block;
     padding: 0.5rem 1.5rem;
-    background: #4f005f;
+    background: #8A7351;
     color: white;
     font: inherit;
     font-weight: bold;
@@ -12,7 +12,7 @@ const PrimaryButton = styled.div`
     border-radius: 0.5rem;
 
     &:hover {
-      background: blueviolet;
+      background: #F0AD46;
     }
   }
 `;
